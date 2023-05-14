@@ -58,12 +58,12 @@ footer {
 }
 
 footer a {
-    color: #db942b;
+    color: #1271b1;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #fbe87c;
+    color: #db942b;
 }
 
 .home-title {
