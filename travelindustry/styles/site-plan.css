@@ -179,3 +179,7 @@ nav a:hover {
   width: 400px;
   padding: 10px;
 }
+
+.wireframe {
+  max-width: 600px;
+}
