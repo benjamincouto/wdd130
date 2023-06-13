@@ -15,7 +15,7 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #fbe87c;
+    background-color: #db942b;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -42,7 +42,7 @@ nav {
 
 nav a {
     text-align: center;
-    color: #1271b1;
+    color: white;
     text-decoration: none;
     padding: 35px;
 }
@@ -76,7 +76,7 @@ nav a:hover {
  
 footer {
     background-color: #02283c;
-    color: #1271b1;
+    color: white;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -85,7 +85,7 @@ footer {
 }
 
 footer a {
-    color: #1271b1;
+    color: #bbd4e1;
     text-decoration: none;
 }
 
