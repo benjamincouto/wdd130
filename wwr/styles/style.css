@@ -59,10 +59,13 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-weight: bolder;
 }
 
 .book:hover, .join:hover {
-    background-color: #1271b1 ;
+    background-color: #1271b1;
+    color:#db942b;
+    font-weight: bolder;
 }
 
 .msg {
