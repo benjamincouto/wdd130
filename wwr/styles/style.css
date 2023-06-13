@@ -88,7 +88,7 @@ footer {
 }
 
 footer a {
-    color: #bbd4e1;
+    color: white;
     text-decoration: none;
 }
 
@@ -235,6 +235,10 @@ main section img {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.footer-left {
+    font-size: 0.6em;
 }
 
 
