@@ -15,7 +15,7 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #db942b;
+    background-color: #02283c;
     grid-column: 1/11;
     grid-row: 4/9;
 }
