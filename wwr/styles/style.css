@@ -244,28 +244,46 @@ main section img {
 
 /* Style for FAQ page */
 
-.faq-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
 
 .faq-image1 {
-    width: 100%;
+    width: 500px;
     grid-column: 4/6;
     grid-row: 1/3;
     padding: 20px;
     margin-top: 20px; 
+    float: right
 }
 
 .faq-image2 {
-    width: 100%;
+    width: 500px;
     grid-column: 1/3;
     grid-row: 5/7;
     padding: 20px; 
+    float: left
 }
 
-.faq-text {
-    grid-area: 1/2/3/6/7/8/9/10/13/14/15;
+footer {
+    clear: both;
+}
+
+.faq-title {
+    font-family: "Comfortaa", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.faq-text-upper {
+    font-family: "Roboto Slab", Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.faq-text-bottom {
+    font-family: "Roboto Slab", Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8em; 
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 

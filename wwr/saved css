@@ -3,10 +3,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-/* .faq-all-images{
-    overflow: hidden;
-} */
-
 .faq-image1 {
     width: 100%;
     grid-column: 4/6;
