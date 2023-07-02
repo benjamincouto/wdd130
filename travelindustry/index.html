@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Travel Tech - Home</title>
   </head>
   <body>
     <div id="content">
       <header>
-        <a id="logo_link" href="index.html">
-          <img class="logo" src="images/logo.png" alt="Dry Oar Logo" />
+        <a id="logo-link" href="index.html">
+          <img class="logo" src="images/logobenjawhite.png" alt="Travel Tech Logo" />
         </a>
         <nav>
           <a href="index.html">Home</a>
@@ -17,28 +18,23 @@
           <a href="techworld.html">Tech World</a>
         </nav>
       </header>
-      <div id="home-first-impression">
+      <div id="home-impression">
         <img
           id="home-img"
           src="images\multiple_airplanes.jpg"
           alt="Airplanes"
-        />
-        <img
-          id="home-img2"
-          src="images\suitcase_mask.jpg"
-          alt="suitcase - mask"
         />
         <h1 class="attention-phrase">
           How has the pandemic reshaped the travel industry?
         </h1>
         <img
           id="home-chart"
-          src="images\int_travel_chart_notitle.png"
+          src="images\chart_bigger.png"
           alt="Int Travel Chart"
         />
       </div>
       <div id="text-home">
-        <h1>The Impact of the Pandemic on the Travel Industry</h1>
+        <h1>- The Impact of the Pandemic on the Travel Industry -</h1>
         <p>
           We have all witnessed for the past few years, how the unexpected can
           affect our lives and everything around us. The pandemic because of
@@ -59,18 +55,28 @@
           industry has changed because of this.
         </p>
       </div>
-      <div id="icons">
-        <img
-          id="airplane-icon"
-          src="images\airplane-icon.png"
-          alt="Airplane icon"
-        />
-        <h2>Airlines</h2>
-        <img id="agency-icon" src="images\agency-icon.png" alt="Agency icon" />
-        <h2>Travel Agencies</h2>
-        <img id="tech-icon" src="images\tech-icon.png" alt="Tech world icon" />
-        <h2>Tech Companies</h2>
-      </div>
+      <section id="icons">
+        <a class="airlines-icon" href="airlines-agencies.html">
+          <img
+            id="airplane-img"
+            src="images\airplane-icon.png"
+            alt="Airplane icon"
+          />
+          <h2>Airlines</h2>
+        </a>
+        <a class="agencies-icon" href="airlines-agencies.html">
+          <img id="agencies-img" src="images\agency-icon.png" alt="Agency icon" />
+          <h2>Travel Agencies</h2>
+        </a>
+        <a class="tech-companies-icon" href="techworld.html">
+          <img
+            id="tech-companies-img"
+            src="images\tech-icon.png"
+            alt="Tech world icon"
+          />
+          <h2>Tech Companies</h2>
+        </a>
+      </section>
       <footer>
         <p class="footer-left">Travel Tech &copy; 2023 - Benjamin Couto</p>
         <p><a href="site-plan.html">Site Plan</a></p>

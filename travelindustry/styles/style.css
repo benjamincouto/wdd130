@@ -1,0 +1,166 @@
+header {
+  background-color: #1f7a7a;
+  display: grid;
+  grid-template-columns: 300px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 100px;
+  align-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0 auto;
+  font-size: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", "Tahoma", sans-serif;
+}
+
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #022b3a;
+  color: #bef7f2;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+#home-impression {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 20px;
+  margin-bottom: 75px;
+}
+
+#home-img {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 100%;
+  align-self: center;
+}
+
+.attention-phrase {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  max-height: 300px;
+  align-self: center;
+}
+
+#home-chart {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 100%;
+  align-self: end;
+}
+
+#icons {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 50px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.airlines-icon {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+#airplane-img {
+  width: 200px;
+}
+
+.agencies-icon {
+  grid-column: 3/4;
+  text-align: center;
+}
+
+#agencies-img {
+  width: 200px;
+}
+
+.tech-companies-icon {
+  grid-column: 4/5;
+  text-align: center;
+}
+
+#tech-companies-img {
+  width: 200px;
+}
+
+footer {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f7a7a;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+  "Lucida Sans", "Tahoma", sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer p a:hover {
+    background-color: #022b3a;
+    color: #bef7f2;
+}
+
+.attention-phrase {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", "Tahoma", sans-serif;
+    font-size: 3em;
+    color: #022B3A;
+    margin-left: 30px;
+}
+
+#text-home {
+    padding: 40px;
+    background-color: #022B3A;
+}
+
+#text-home h1 {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", "Tahoma", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#text-home p {
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-size: 1.3em;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+}
+
+#icons {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", "Tahoma", sans-serif;
+    font-size: 1.2em;
+    color:#022B3A;
+}
+
+#icons a {
+    text-decoration: none;
+}
+
+#icons a:hover h2 {
+    background-color: #022B3A;
+    color: #BEF7F2;
+}
