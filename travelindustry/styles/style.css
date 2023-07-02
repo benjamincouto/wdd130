@@ -34,6 +34,7 @@ nav a:hover {
   display: block;
   margin: 0 auto;
   width: 300px;
+  padding: 20px;
 }
 
 #home-impression {
