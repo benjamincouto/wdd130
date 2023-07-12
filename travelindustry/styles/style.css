@@ -269,3 +269,50 @@ footer {
   font-size: 2em;
   color: #022B3A;
 }
+
+/* Style for page 3*/
+
+#top-section-tech {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+
+#top-section-tech h1 {
+  grid-column: 1/2;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", sans-serif;
+  align-self: center;
+  text-align: left;
+  font-size: 3em;
+  padding: 25px;
+  color: #022B3A;
+  font-weight: 900;
+}
+
+#developer-img {
+  grid-column: 2/3;
+  width: 100%;
+}
+
+#computer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#text-page3 p {
+  font-family: "Lato", "Helvetica", sans-serif;
+  font-size: 1.3em;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  color: #022B3A;
+}
+
+.footer-techworld {
+  margin-top: 50px;
+}
+
+
+
+
